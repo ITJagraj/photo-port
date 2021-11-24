@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from './components/Nav';
+import Nav from './component/Nav';
 import About from './component/About'
 
 function App() {
