@@ -23,18 +23,21 @@ function Nav() {
     }
 
   return (
-    <header>
+    <header className= "flex-row px-1">
         <h2>
-            <a href= '/'></a>
-            <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+        <a data-testid="link" href="/">
+        <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+        </a>
         </h2>
         <nav>
             <ul className="flex-row">
                 <li className= "mx-2">
-                    <a href= "#about">About</a>
+                
                 </li>
                 <li>
+                <a data-testid="about" href="#about">
                     <span>Contact</span>
+                    </a>
                 </li>
                 {categories.map((category) => (
                     <li 
