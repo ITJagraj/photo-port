@@ -1,5 +1,5 @@
 import React from "react";
-import { capitalizeFirstLetter } from '../../utils/helper';
+import { capitalizeFirstLetter } from '../../utils/helpers.js';
 import photo from "../../assets/small/commercial/0.jpg";
 
 function Gallery(props) {
