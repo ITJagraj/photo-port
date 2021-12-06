@@ -16,7 +16,7 @@ function Gallery(props) {
           <img
             src={photo}
             alt="Commercial Example"
-            className="img-thumbnail mx-1"
+            className="mg-thumbnail mx-1"
           />
       </div>
     </section>
