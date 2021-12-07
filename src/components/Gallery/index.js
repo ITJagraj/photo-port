@@ -3,6 +3,7 @@ import PhotoList from '../PhotoList';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Gallery({ currentCategory }) {
+  
   <phtoList category= {currentCategory.name} />
   const { name, description } = currentCategory;
   return (

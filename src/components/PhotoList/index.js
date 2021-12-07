@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Modal from "../Modal";
 
 const PhotoList = ({ category }) => {
+    
   const [photos] = useState([
     {
       name: "Grocery aisle",
